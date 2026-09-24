@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" fill="none">
+  <!-- Rounded Squircle Dark Navy Background -->
+  <rect width="120" height="120" rx="28" fill="#0F172A"/>
+  
+  <defs>
+    <linearGradient id="gradPrimary" x1="20" y1="20" x2="100" y2="100" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#38BDF8"/>
+      <stop offset="50%" stop-color="#2563EB"/>
+      <stop offset="100%" stop-color="#1D4ED8"/>
+    </linearGradient>
+    <linearGradient id="gradAccent" x1="40" y1="30" x2="90" y2="90" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#60A5FA"/>
+      <stop offset="100%" stop-color="#0284C7"/>
+    </linearGradient>
+    <filter id="subtleGlow" x="0" y="0" width="120" height="120" filterUnits="userSpaceOnUse">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+  </defs>
+
+  <!-- Background subtle structural grid lines representing warehouse bay architecture -->
+  <line x1="28" y1="92" x2="92" y2="92" stroke="#1E293B" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="28" y1="76" x2="92" y2="76" stroke="#1E293B" stroke-width="1.5" stroke-dasharray="3 3"/>
+
+  <!-- Lower Tier Inventory Foundation Blocks (Modular & Precise) -->
+  <rect x="28" y="82" width="16" height="10" rx="3" fill="#334155"/>
+  <rect x="48" y="82" width="24" height="10" rx="3" fill="#2563EB" fill-opacity="0.85"/>
+  <rect x="76" y="82" width="16" height="10" rx="3" fill="#38BDF8" fill-opacity="0.8"/>
+
+  <!-- Mid Tier Stock Cluster -->
+  <rect x="36" y="66" width="20" height="10" rx="3" fill="#1E40AF"/>
+  <rect x="60" y="66" width="24" height="10" rx="3" fill="#38BDF8"/>
+
+  <!-- Dynamic Predictive S-Loop Ribbon / Forward Trajectory (Interlocking S + Uptrend Arrow) -->
+  <!-- Continuous ribbon flow symbolizing Stock intelligence and predictive uplift -->
+  <path d="M30 68C30 52 42 46 54 46H66C78 46 88 38 88 28" 
+        stroke="url(#gradPrimary)" 
+        stroke-width="7" 
+        stroke-linecap="round" 
+        stroke-linejoin="round"/>
+
+  <!-- Rising Forecast Beacon Point / Pulse Node -->
+  <circle cx="88" cy="28" r="7.5" fill="#38BDF8"/>
+  <circle cx="88" cy="28" r="3.5" fill="#FFFFFF"/>
+
+  <!-- Sensor / Intelligence Wave Pulse Rings emanating from peak node -->
+  <circle cx="88" cy="28" r="14" stroke="#38BDF8" stroke-width="1.5" stroke-opacity="0.4" stroke-dasharray="2 3"/>
+
+  <!-- Smart allocation target indicator -->
+  <path d="M54 38L54 46L62 46" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
