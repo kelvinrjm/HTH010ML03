@@ -1,0 +1,184 @@
+{
+  "pbtResults": {},
+  "executionHistory": {
+    "1.1 Create package root and config module": [
+      {
+        "executionId": "a542f193-0e5a-4f54-93dd-d0020c6172de",
+        "chatSessionId": "sess_98ff782f-825d-4f4c-9ebf-29cc3428411d",
+        "timestamp": 1790247857440
+      },
+      {
+        "executionId": "a542f193-0e5a-4f54-93dd-d0020c6172de",
+        "chatSessionId": "sess_98ff782f-825d-4f4c-9ebf-29cc3428411d",
+        "timestamp": 1790247870303
+      },
+      {
+        "executionId": "a542f193-0e5a-4f54-93dd-d0020c6172de",
+        "chatSessionId": "sess_98ff782f-825d-4f4c-9ebf-29cc3428411d",
+        "timestamp": 1790247960398
+      }
+    ],
+    "1.2 Create directory stubs and entry-point": [
+      {
+        "executionId": "a542f193-0e5a-4f54-93dd-d0020c6172de",
+        "chatSessionId": "sess_98ff782f-825d-4f4c-9ebf-29cc3428411d",
+        "timestamp": 1790247859331
+      },
+      {
+        "executionId": "a542f193-0e5a-4f54-93dd-d0020c6172de",
+        "chatSessionId": "sess_98ff782f-825d-4f4c-9ebf-29cc3428411d",
+        "timestamp": 1790247870706
+      },
+      {
+        "executionId": "a542f193-0e5a-4f54-93dd-d0020c6172de",
+        "chatSessionId": "sess_98ff782f-825d-4f4c-9ebf-29cc3428411d",
+        "timestamp": 1790247960801
+      }
+    ],
+    "2.1 Implement `smartstock/db/connection.py`": [
+      {
+        "executionId": "a542f193-0e5a-4f54-93dd-d0020c6172de",
+        "chatSessionId": "sess_98ff782f-825d-4f4c-9ebf-29cc3428411d",
+        "timestamp": 1790247859798
+      },
+      {
+        "executionId": "a542f193-0e5a-4f54-93dd-d0020c6172de",
+        "chatSessionId": "sess_98ff782f-825d-4f4c-9ebf-29cc3428411d",
+        "timestamp": 1790247969715
+      }
+    ],
+    "3.1 Write the 18 migration SQL files": [
+      {
+        "executionId": "a542f193-0e5a-4f54-93dd-d0020c6172de",
+        "chatSessionId": "sess_98ff782f-825d-4f4c-9ebf-29cc3428411d",
+        "timestamp": 1790247859918
+      }
+    ],
+    "3.2 Implement `smartstock/db/schema.py`": [
+      {
+        "executionId": "a542f193-0e5a-4f54-93dd-d0020c6172de",
+        "chatSessionId": "sess_98ff782f-825d-4f4c-9ebf-29cc3428411d",
+        "timestamp": 1790247859977
+      }
+    ],
+    "4.1 Create pytest conftest with `mem_db` fixture": [
+      {
+        "executionId": "a542f193-0e5a-4f54-93dd-d0020c6172de",
+        "chatSessionId": "sess_98ff782f-825d-4f4c-9ebf-29cc3428411d",
+        "timestamp": 1790247860048
+      }
+    ],
+    "6. Checkpoint — connection, schema, and fixtures": [
+      {
+        "executionId": "a542f193-0e5a-4f54-93dd-d0020c6172de",
+        "chatSessionId": "sess_98ff782f-825d-4f4c-9ebf-29cc3428411d",
+        "timestamp": 1790247860099
+      }
+    ],
+    "7.1 Implement `smartstock/db/queries/stores.py`": [
+      {
+        "executionId": "a542f193-0e5a-4f54-93dd-d0020c6172de",
+        "chatSessionId": "sess_98ff782f-825d-4f4c-9ebf-29cc3428411d",
+        "timestamp": 1790247860154
+      }
+    ],
+    "8.1 Implement `smartstock/db/queries/suppliers.py`": [
+      {
+        "executionId": "a542f193-0e5a-4f54-93dd-d0020c6172de",
+        "chatSessionId": "sess_98ff782f-825d-4f4c-9ebf-29cc3428411d",
+        "timestamp": 1790247860212
+      }
+    ],
+    "9.1 Implement `smartstock/db/queries/categories.py`": [
+      {
+        "executionId": "a542f193-0e5a-4f54-93dd-d0020c6172de",
+        "chatSessionId": "sess_98ff782f-825d-4f4c-9ebf-29cc3428411d",
+        "timestamp": 1790247860283
+      }
+    ],
+    "10.1 Implement `smartstock/db/queries/products.py`": [
+      {
+        "executionId": "a542f193-0e5a-4f54-93dd-d0020c6172de",
+        "chatSessionId": "sess_98ff782f-825d-4f4c-9ebf-29cc3428411d",
+        "timestamp": 1790247860383
+      }
+    ],
+    "11.1 Implement `smartstock/db/queries/inventory.py`": [
+      {
+        "executionId": "a542f193-0e5a-4f54-93dd-d0020c6172de",
+        "chatSessionId": "sess_98ff782f-825d-4f4c-9ebf-29cc3428411d",
+        "timestamp": 1790247860442
+      }
+    ],
+    "12.1 Implement `smartstock/db/queries/sales.py`": [
+      {
+        "executionId": "a542f193-0e5a-4f54-93dd-d0020c6172de",
+        "chatSessionId": "sess_98ff782f-825d-4f4c-9ebf-29cc3428411d",
+        "timestamp": 1790247860515
+      }
+    ],
+    "13.1 Implement `smartstock/db/queries/purchases.py`": [
+      {
+        "executionId": "a542f193-0e5a-4f54-93dd-d0020c6172de",
+        "chatSessionId": "sess_98ff782f-825d-4f4c-9ebf-29cc3428411d",
+        "timestamp": 1790247860579
+      }
+    ],
+    "14.1 Implement `smartstock/db/queries/transfers.py`": [
+      {
+        "executionId": "a542f193-0e5a-4f54-93dd-d0020c6172de",
+        "chatSessionId": "sess_98ff782f-825d-4f4c-9ebf-29cc3428411d",
+        "timestamp": 1790247860652
+      }
+    ],
+    "15.1 Implement `smartstock/db/queries/forecasts.py`": [
+      {
+        "executionId": "a542f193-0e5a-4f54-93dd-d0020c6172de",
+        "chatSessionId": "sess_98ff782f-825d-4f4c-9ebf-29cc3428411d",
+        "timestamp": 1790247860719
+      }
+    ],
+    "16.1 Implement `smartstock/db/queries/audit.py`": [
+      {
+        "executionId": "a542f193-0e5a-4f54-93dd-d0020c6172de",
+        "chatSessionId": "sess_98ff782f-825d-4f4c-9ebf-29cc3428411d",
+        "timestamp": 1790247860774
+      }
+    ],
+    "17.1 Implement `smartstock/db/queries/users.py`": [
+      {
+        "executionId": "a542f193-0e5a-4f54-93dd-d0020c6172de",
+        "chatSessionId": "sess_98ff782f-825d-4f4c-9ebf-29cc3428411d",
+        "timestamp": 1790247860832
+      }
+    ],
+    "19. Checkpoint — all query modules": [
+      {
+        "executionId": "a542f193-0e5a-4f54-93dd-d0020c6172de",
+        "chatSessionId": "sess_98ff782f-825d-4f4c-9ebf-29cc3428411d",
+        "timestamp": 1790247860891
+      }
+    ],
+    "20.1 Write end-to-end smoke test (`tests/db/test_smoke.py`)": [
+      {
+        "executionId": "a542f193-0e5a-4f54-93dd-d0020c6172de",
+        "chatSessionId": "sess_98ff782f-825d-4f4c-9ebf-29cc3428411d",
+        "timestamp": 1790247860949
+      }
+    ],
+    "21. Final checkpoint — full test suite": [
+      {
+        "executionId": "a542f193-0e5a-4f54-93dd-d0020c6172de",
+        "chatSessionId": "sess_98ff782f-825d-4f4c-9ebf-29cc3428411d",
+        "timestamp": 1790247861006
+      }
+    ],
+    "1. Project scaffold and configuration": [
+      {
+        "executionId": "a542f193-0e5a-4f54-93dd-d0020c6172de",
+        "chatSessionId": "sess_98ff782f-825d-4f4c-9ebf-29cc3428411d",
+        "timestamp": 1790247960870
+      }
+    ]
+  }
+}
