@@ -1,1 +1,0 @@
-# SmartStock AI database tests
